@@ -1,0 +1,102 @@
+*{
+font-family: verdana;
+color: black;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: #96B6CF;
+}
+
+body{
+background-image: url("../images/dragonspine.jpg");
+background-attachment: fixed;
+}
+
+#logo{
+height: 100px;
+width: 8%;
+border: solid 0px;
+border-radius: 50px;
+} 
+
+#pagelink{
+height: 100px;
+width: 22%;
+}
+
+#title{
+font-size: 40px;
+text-align: center;
+margin: auto;
+}
+
+#text{
+font-size: 26px;
+}
+
+#titleimage{
+width: 100%;
+border: solid black 1px;
+center-align;
+}
+
+#video{
+height: 100%;
+width: 70%;
+}
+
+#subimage{
+width: 300px;
+padding: 4px;
+}
+
+#items{
+text-align: center;
+}
+
+.parent{
+position: relative;
+width: 60%;
+margin: auto;
+left:0;
+}
+
+#overlay{
+font-size:20px;
+text-align:center;
+center-align;
+color: white;
+background: #00000080;
+position:absolute;
+top:0;
+width:100%;
+height:100%;
+opacity:0;
+}
+
+#overlay:hover{
+opacity:1;
+}
+
+.footer {
+position: absolute;
+left:0;
+bottom:100;
+background-color: #96B6CF;
+width:100%;
+content: "";
+clear: both;
+display: table;
+}
+
+#icon{
+width: 50px;
+height: 50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#imgcontainer{
+float: left;
+margin:auto;
+padding: 5px;
+}
